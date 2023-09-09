@@ -1,0 +1,82 @@
+htnml, body {
+    font-family: 'Roboto';
+}
+
+.mainSection {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    width: 27rem;
+    height: 250px;
+    background-color: #232323;
+    border: 5px solid #232323;
+    border-radius: 10px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 95vw;
+        height: 250px;
+        background-color: #232323;
+        border: 5px solid #232323;
+        border-radius: 10px;
+        margin-left: auto;
+        float:none;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        text-align: center;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    .mainSection {
+        width: 100vw;
+        height: 100vh;
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+.card:hover {
+    cursor: pointer;
+    border: 5px solid #3d97dd;
+    background-color: #353535;
+}
+
+.card:hover > .title {
+    color: #3d97dd;
+}
+
+.cardLogo {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    color: #efefef;
+    font-size: 2rem;
+}
